@@ -1,0 +1,137 @@
+body{
+    font-family: sans-serif ;
+    margin: 0;
+    background-image: url('fondo5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: initial;    
+}
+
+a{
+    text-decoration: none ;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 60px;
+    background-color: blue  ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+font-weight: 500;
+padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@midia (max-wehed:700px){
+    header{
+        flex-direction ::colum 
+        nav{
+            padding: 10px 0px;
+        }
+    }
+}
+
+/* Centered all content inside the .card class */
+.card {
+    margin: 20px auto; 
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid black; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    display: flex; /* Added flexbox */
+    flex-direction: column; /* Ensures content stacks vertically */
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+}
+
+.card img {
+    height: 300px; 
+    width: 300px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+
+
+
+
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    padding: 20px 0;
+    text-align: left; 
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    align-items: left;
+    justify-content: left;
+}
+.saver{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 30px;
+}
+.saver1{
+   display: inline-block;
+   align-items: center;
+   grid-column: 3;
+}
+.botonProd{
+    text-align:start;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px 0px 0px;    
+}
+.flecha{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    justify-content: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.nosotros{
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+
+
+
+
